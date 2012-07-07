@@ -24,7 +24,7 @@ you can create a restfs api using the standalone server or including it in your 
 server
 ---
 
-to start a simple server, simply run `restfs`. `dir` and `port` options are available, which default to `process.cwd()` and `8000` respectively. to browse a given directory from [http://localhost:8000/](http://localhost:8000/), simply run
+to start a standalone server, run `restfs`. `dir` and `port` options are available, which default to `process.cwd()` and `8000` respectively. to browse a given directory from [http://localhost:8000/](http://localhost:8000/), simply run
 
     $ restfs
 
