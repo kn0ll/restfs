@@ -3,7 +3,17 @@
   "description": "exposes your file system as a json rest api",
   "version": "0.0.1",
   "author": "catshirt <caden@catshirt.net>",
-  "keywords": ["file", "system", "fs", "rest", "api"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/catshirt/restfs.git"
+  },
+  "keywords": [
+    "file",
+    "system",
+    "fs",
+    "rest",
+    "api"
+  ],
   "dependencies": {
     "async": "0.1.22",
     "journey": "0.4.0-pre-3",
