@@ -1,7 +1,7 @@
 {
   "name": "restfs",
   "description": "exposes your file system as a json rest api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "catshirt <caden@catshirt.net>",
   "repository": {
     "type": "git",
