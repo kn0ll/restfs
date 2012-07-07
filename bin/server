@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var http = require('http'),
+  argv = require('optimist').argv,
+  restfs = require('../lib/restfs'),
+  server = http.createServer();
+
+server.on('request', restfs(argv.dir || process.cwd()));
+server.listen(argv.port || 8000);
